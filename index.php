@@ -79,14 +79,10 @@ foreach ($age as $keyFirstname => $valueAge) {
   // Autre syntaxe : 
   //echo "$keyFirstname a $valueAge ans<br>";
 }
-
-
-
+echo "<hr>";
 
 // Pour visualiser le contenu du tableau (debug uniquement) : 
-/*
 echo "<pre>";
   var_dump($monAdresse);
 echo "</pre>";
-*/
 ?>
