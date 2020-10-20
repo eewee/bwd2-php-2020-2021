@@ -59,6 +59,30 @@ Adresse : <br>
   </li>
 </ul>";
 
+
+
+
+// Init
+$age = array(
+  "pierre"  => 25,
+  "sophie"  => 24,
+  "michael" => 23
+);
+
+// Afficher l'age de Sophie : 
+echo $age["sophie"]."<br><br>";
+
+// Faire une boucle :
+foreach ($age as $keyFirstname => $valueAge) {
+  echo $keyFirstname." a ".$valueAge." ans<br>";
+
+  // Autre syntaxe : 
+  //echo "$keyFirstname a $valueAge ans<br>";
+}
+
+
+
+
 // Pour visualiser le contenu du tableau (debug uniquement) : 
 /*
 echo "<pre>";
