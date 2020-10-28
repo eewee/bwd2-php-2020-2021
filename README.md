@@ -3,3 +3,5 @@
 Utilisation des :
 - Variables
 - Tableaux
+- Conditions
+- Boucles

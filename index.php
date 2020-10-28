@@ -152,13 +152,37 @@ echo "<br>";
 // Condition : ternaire
 echo ($note == 0) ? "Vous avez eu 0" : "Vous avez une note supérieure à 0";
 echo "<hr>";
+
+
+
+
+// Afficher les notes 15, 18, 12, 9 et 17, avec une boucle
+// - for
+// - foreach
+$notes = [
+  0 => 15, // 0 : $notes[0]
+  1 => 18, // 1 : $notes[1]
+  2 => 12, // 2
+  3 => 9,  // 3
+  4 => 17, // 4
+  5 => 18, // 5
+];
+//echo "<pre>"; var_dump( $notes ); echo "</pre>";
+
+// for
+for ($i = 0; $i < count($notes); $i++) {
+    echo $notes[$i]." ";
+}
+echo "<br><br>";
+
+// foreach
+foreach ($notes as $value) {
+    echo $value."<br>";
+}
+echo "<br><br>";
 ?>
 
 
-
-
-<?php
-/*
 
 <h2>Debug :</h2>
 <?php
