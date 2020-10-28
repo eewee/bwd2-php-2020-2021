@@ -152,10 +152,12 @@ echo "<br>";
 // Condition : ternaire
 echo ($note == 0) ? "Vous avez eu 0" : "Vous avez une note supérieure à 0";
 echo "<hr>";
+?>
 
 
 
-
+<h2>Boucles :</h2>
+<?php
 // Afficher les notes 15, 18, 12, 9 et 17, avec une boucle
 // - for
 // - foreach
@@ -179,7 +181,7 @@ echo "<br><br>";
 foreach ($notes as $value) {
     echo $value."<br>";
 }
-echo "<br><br>";
+echo "<hr>";
 ?>
 
 
