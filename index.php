@@ -172,14 +172,15 @@ $notes = [
 //echo "<pre>"; var_dump( $notes ); echo "</pre>";
 
 // for
+echo "<h3>Boucle 'for' : </h3>";
 for ($i = 0; $i < count($notes); $i++) {
     echo $notes[$i]." ";
 }
-echo "<br><br>";
 
 // foreach
+echo "<h3>Boucle 'foreach' : </h3>";
 foreach ($notes as $value) {
-    echo $value."<br>";
+    echo $value." ";
 }
 echo "<hr>";
 ?>
